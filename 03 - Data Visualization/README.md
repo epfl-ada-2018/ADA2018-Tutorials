@@ -10,4 +10,4 @@ This is not meant to be an exhaustive documentation of `folium`, its features or
 
 ---
 
-Original credits : [Dylan Bourgeois](github.com/dtsbourg/)
+Original credits : Dylan Bourgeois
