@@ -1,6 +1,6 @@
 For the purpose of solving Homework 3, you will have to configure your jupyter notebook and anaconda installations to run pyspark. To do so, you need to perform the following:
 
-1) Install java (at least version 8) and scala if they are not installed already
+1) Install java (at least version 8) if they are not installed already
 
 2) Select a folder to install spark:
 ```bash
@@ -14,7 +14,7 @@ export SPARK_HOME=<selected_dir>
 
 ```bash
 mkdir -p $SPARK_HOME
-tar -xzf spark-*-bin-hadoop*.tgz --directory $SPARK_HOME
+tar -xzf spark-*-bin-hadoop*.tgz --directory $SPARK_HOME --strip-components 1
 ```
 
 4) Make sure your JAVA_HOME is configured correctly:
